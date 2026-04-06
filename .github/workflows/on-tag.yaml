@@ -14,10 +14,6 @@ jobs:
             echo "Tag format is invalid. Expected format: vX.Y.Z"
             exit 1
           fi
-    steps:
-      - uses: actions/checkout@v2
-      - name: Run a one-line script
-        run: echo "Hola Mundo, desde un tag"
 
 
 
